@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pizza.css">
+</head>
+<body>
+  <article> 
+    <header>
+        <h1>Pizza miam</h1>
+    </header>
+    <main>
+        
+            
+    
+         <form id="form">   
+            <div class="form__section">
+            <div class="choix">
+                <h2>choix de la pizza</h2>
+                 <select class="form__input" name="taille" id="taille">
+                    <option value="" name=" ">taille de la pizza</option>               
+                    <option value="Large" name="Large  ">Large :11 €</option>               
+                    <option value="Medium" name="Medium ">Medium :9 €</option>
+                    <option value="Small" name="Small ">Small : 7 €</option>
+                 </select>
+                
+                 <select class="form__input" name="type" value="select" id="type">
+                    <option value="" name="pizza ">choix de la pizza</option>
+                    <option value="pizza" name="pizza ">Pizza margarita 0€</option>
+                    <option value="pizza" name="pizza ">Pizza fruits de mer 4€</option>
+                    <option value="pizza" name="pizza ">Pizza au poulet 5€</option>
+                 </select> 
+                <label class="total" id="totalLabel"> total = 0 €</label>
+                 <button class="form__submit" type="submit">envoyer</button>
+            </div>
+            </div>      
+        </form>
+         <form class="form" id="contactForm"> 
+            <h2> contact</h2> 
+            <div class="form__section">
+                <div>
+                    <input class="form__input" type="text" name="firstName" id="firstName" placeholder="Firstname">
+                    <label class="error-message" for="firstName" id="firstNameError">Veuillez renseigner votre prénom.</label>
+                </div>
+                <div>
+                    <input class="form__input" type="text" name="lastName" id="lastName" placeholder="Lastname">
+                    <label class="error-message" for="lastName" id="lastNameError">Veuillez renseigner votre nom.</label>
+                </div>
+            </div>    
+            
+            <div class="form__section">
+            
+                <div>    
+                    <input class="form__input" type="email" name="email" id="email" placeholder="Email address">
+                    <label class="error-message" for="email" id="emailError">Veuillez renseigner un email valide.</label>
+                </div>
+                <div>
+                    <input class="form__input" type="tel" name="phone" id="phone" placeholder="Phone number">
+                    <label class="error-message" for="phone" id="phoneError">Veuillez renseigner un numéro de téléphone valide.</label>
+                </div>
+            </div>
+           
+            <button class="form__submit" type="submit">envoyer</button>
+         </form>
+       
+          
+    
+    
+    </main>
+
+
+    <footer> 
+        <div class=""></div><p>Adresse 13 rue Jules ferry 62800 lievin. Téléphone: 0915203041</p></div> 
+    </footer>
+    </article>  
+    <script src="./pizza.js"></script>
+</body>
+</html>
