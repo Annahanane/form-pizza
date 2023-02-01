@@ -1,0 +1,135 @@
+body{
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    font-size: sans-serif;
+}
+article{
+    background-image: url(pexels-vincent-rivaud-2147491.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+     width: 90%;
+    height: 100%;   
+}
+.button{
+    justify-content:center;
+    display: flex;
+}
+h1{
+    background-color: darkgreen;
+    color: azure;
+    margin: 20px auto;
+    font-size: xx-large;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+.choix{
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    margin: 10px auto;
+    display: block;
+    flex-direction: column;
+}
+select{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin:0;
+    border-bottom: 0;
+    
+}
+
+
+h2{
+    background-color: darkgreen;
+    color:azure;
+    margin: 10px auto;
+    width: 300px; 
+    justify-content: center;
+    justify-items: center;
+    display: block;
+    text-align: center;
+}
+/*.message-input{
+    height: 100px;
+    width: 300px;
+    border: green solid;
+    margin: 10px auto;
+    justify-content: center;
+}*/
+
+
+.form {
+    border-radius: 5px;
+    width: 300px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 10px auto;
+}
+
+.form > div > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.error-message {
+    display: none;
+    color: red;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.total{
+    background-color: aliceblue;
+    display: flex;
+}
+
+
+
+.form__section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form__input {
+    padding: 8px 16px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    border: none;
+    flex: 1;
+    max-height: 37px;
+    margin: 10px;
+}
+
+.form__submit {
+    width: fit-content;
+    padding: 8px 16px;
+    color: white;
+    background-color: #0d6efd;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    justify-content: center;
+}
+footer{
+    z-index: 2;
+    position: relative;
+    background-color: darkgreen;
+    font-size: small;
+    color: white;
+    height: 40px;
+    display:block;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 2px;
+    
+} 
+
+    
